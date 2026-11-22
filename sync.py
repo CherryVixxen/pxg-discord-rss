@@ -118,7 +118,7 @@ def localize_attachment(message_id, number, item):
             "original_url": original, "size": size, "content_type": item.get("content_type") or ""}
 
 
-def parse_message(msg):
+def parse_message(msg, guild_id):
     # Webhook-authored followed announcements arrive in this destination channel.
     mid = msg["id"]
     files = [localize_attachment(mid, i, item) for i, item in enumerate(msg.get("attachments", []))]
@@ -144,7 +144,7 @@ def parse_message(msg):
         "content": msg.get("content") or "",
         "attachments": files,
         "embeds": embeds,
-        "message_url": "https://discord.com/channels/@me/" + CHANNEL_ID + "/" + mid,
+        "message_url": "https://discord.com/channels/" + guild_id + "/" + CHANNEL_ID + "/" + mid,
         "type": msg.get("type"),
     }
 
@@ -213,11 +213,13 @@ def build_feed(records):
 def main():
     records = load_records()
     latest = str(max((int(x["id"]) for x in records), default=0)) if records else ""
+    channel_info = fetch_json(api + "/channels/" + CHANNEL_ID)
+    guild_id = str(channel_info.get("guild_id") or "@me")
     messages = get_new_messages(latest)
     ids = {x["id"] for x in records}
     for message in messages:
         if message["id"] not in ids:
-            records.append(parse_message(message))
+            records.append(parse_message(message, guild_id))
             ids.add(message["id"])
     records.sort(key=lambda x: int(x["id"]))
     records = records[-MAX_ITEMS:]
