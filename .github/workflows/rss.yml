@@ -1,0 +1,57 @@
+name: Sincronizar Discord e publicar RSS
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pxg-discord-rss
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Obter arquivos
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ler Discord e gerar RSS
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python sync.py
+
+      - name: Gravar histórico e mídia no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualizar anuncios RSS"
+            git push
+          fi
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Preparar site estático
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+      - name: Publicar site
+        id: deploy
+        uses: actions/deploy-pages@v4
