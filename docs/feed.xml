@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PxG News — anuncios oficiais encaminhados do Discord</title>
+    <link>https://cherryvixxen.github.io/pxg-discord-rss/</link>
+    <description>Espelho de anuncios encaminhados para o canal #news do servidor projetos.</description>
+    <language>pt-br</language>
+    <ns0:link href="https://cherryvixxen.github.io/pxg-discord-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PokeXGames #📷│galeria</title>
+      <guid>discord-1574194397099204612</guid>
+      <link>https://discord.com/channels/1536385342058270740/1574194274701017238/1574194397099204612</link>
+      <pubDate>Sun, 22 Nov 2026 22:46:31 +0000</pubDate>
+      <description>&lt;pre style='white-space:pre-wrap'&gt;PokeXGames #📷│galeria&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>PokeXGames #📋│info-update</title>
+      <guid>discord-1574194376358498378</guid>
+      <link>https://discord.com/channels/1536385342058270740/1574194274701017238/1574194376358498378</link>
+      <pubDate>Sun, 22 Nov 2026 22:46:26 +0000</pubDate>
+      <description>&lt;pre style='white-space:pre-wrap'&gt;PokeXGames #📋│info-update&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>PokeXGames #📰│changelog</title>
+      <guid>discord-1574194352681517270</guid>
+      <link>https://discord.com/channels/1536385342058270740/1574194274701017238/1574194352681517270</link>
+      <pubDate>Sun, 22 Nov 2026 22:46:20 +0000</pubDate>
+      <description>&lt;pre style='white-space:pre-wrap'&gt;PokeXGames #📰│changelog&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>PokeXGames #📢│informativos</title>
+      <guid>discord-1574194318082707671</guid>
+      <link>https://discord.com/channels/1536385342058270740/1574194274701017238/1574194318082707671</link>
+      <pubDate>Sun, 22 Nov 2026 22:46:12 +0000</pubDate>
+      <description>&lt;pre style='white-space:pre-wrap'&gt;PokeXGames #📢│informativos&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>
