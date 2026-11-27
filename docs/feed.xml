@@ -7,6 +7,165 @@
     <language>pt-br</language>
     <ns0:link href="https://cherryvixxen.github.io/pxg-discord-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>- Adicionamos o novo ataque **King’s Roar** ao Pokémon TM Slaking. Devido a essa alteração, revisamos os tempos de recarga de seus ataques.</title>
+      <guid>discord-1575685444497186918</guid>
+      <link>https://discord.com/channels/1536385342058270740/1574194274701017238/1575685444497186918</link>
+      <pubDate>Fri, 27 Nov 2026 01:31:24 +0000</pubDate>
+      <description>&lt;pre style='white-space:pre-wrap'&gt;- Adicionamos o novo ataque **King’s Roar** ao Pokémon TM Slaking. Devido a essa alteração, revisamos os tempos de recarga de seus ataques.
+  - **Observação:** Os tempos de recarga atualizados não correspondem mais aos apresentados em seu spotlight.
+- Alteramos as cores dos ataques da TM Shiny Delphox e atualizamos o visual do ataque Mystical Fire.
+
+## Alterações em Pokémon
+
+### Mega Meganium - Ajuste
+
+- Alteramos o ataque Solar Beam adaptado para que não aplique mais a condição negativa BLIND.
+  - **Observação:** Essa alteração afeta todos os Pokémon que utilizam essa versão do ataque.
+- Adicionamos o ataque Sweet Scent.
+
+### Shiny Bellossom - Buff
+
+- Aumentamos o bônus de velocidade de movimento concedido pelo ataque Sunny Day.
+
+### Shiny Girafarig - Buff
+
+- Removemos os ataques Nasty Plot e Stored Power.
+- Adicionamos o ataque Psy Impact.
+- Revisamos a força do combo em área.
+
+### Shiny Flareon - Buff
+
+- Aumentamos levemente a velocidade de movimento.
+
+### Dachsbun - Buff
+
+- Aumentamos a velocidade de movimento.
+
+### Gothitelle - Buff
+
+- Reduzimos o tempo de recarga do ataque Instant Teleportation de 90 para 50 segundos.
+
+### TM Alolan Raticate - Buff
+
+- Aumentamos levemente a velocidade de movimento.
+
+### TM Shiny Magneton - Buff
+
+- Removemos o ataque Flash Cannon.
+- Adicionamos o ataque Steel Beam.
+
+### TM Shiny Ariados - Buff
+
+- Removemos os ataques Infestation e Megahorn.
+- Adicionamos o ataque Pounce.
+- Alteramos o ataque X-Scissor para sua versão em área, revisamos levemente seu visual e aumentamos sua área de efeito.
+  - **Observação:** Essa alteração afeta todos os Pokémon que utilizam essa versão do ataque.
+- Revisamos a força dos ataques em área.
+  - **Observação:** O dano total em área foi mantido.
+
+### TM Shiny Politoed - Buff
+
+- Removemos o ataque Tongue Grap.
+- Adicionamos o ataque Water Pulse.
+
+### TM Dusknoir - Buff
+
+- Removemos os ataques Shadow Cannon e Shadow Sneak.
+- Adicionamos os ataques Astonish e Hex.
+
+### TM Shiny Rhydon - Buff
+
+- Removemos o ataque Bulldoze.
+- Adicionamos o ataque Earthquake.
+
+### TM Metagross - Buff
+
+- Removemos o ataque Psy Impact.
+- Adicionamos o ataque Hone Claws.
+- Alteramos o ataque Psyshock para sua versão em área.
+- Aumentamos levemente a força do ataque Psychic.
+
+### TM Electivire - Buff
+
+- Removemos o ataque Focus Blast.
+- Adicionamos o ataque Thunder.
+
+### TM Magmortar - Buff
+
+- Removemos os ataques Fire Blast e Flamethrower.
+- Adicionamos os ataques Temper Flare e Sunny Day.
+- Revisamos a força dos ataques em área.
+  - **Observação:** O dano total em área foi mantido.
+
+### TM Shiny Dodrio - Buff
+
+- Removemos o ataque Brave Bird.
+- Adicionamos o ataque Swords Dance.
+- Reduzimos levemente a força dos ataques de alvo único.
+- Revisamos a força dos ataques em área.
+  - **Observação:** O dano total em área foi mantido.
+
+### TM Mega Kangaskhan - Buff
+
+- Removemos o ataque Focus Blast.
+- Adicionamos o ataque Anger Release.
+- Revisamos a força dos ataques em área.
+  - **Observação:** O dano total em área foi mantido.
+
+## Correções
+
+- Corrigimos um erro de mapa na Ilex Forest.
+- Corrigimos um erro de mapa próximo à Union Cave que fazia com que algumas decorações fossem exibidas em posições incorretas.
+- Corrigimos um erro de mapa que fazia com que dois pilares fossem exibidos no canto do archway do Museu de Altomare.
+- Corrigimos um erro que fazia com que o target selecionado fosse perdido ao trocar de Pokémon durante o modo Pokéview.&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title># Notas de Atualização</title>
+      <guid>discord-1575685443838812212</guid>
+      <link>https://discord.com/channels/1536385342058270740/1574194274701017238/1575685443838812212</link>
+      <pubDate>Fri, 27 Nov 2026 01:31:24 +0000</pubDate>
+      <description>&lt;pre style='white-space:pre-wrap'&gt;# Notas de Atualização
+-# Disponível a partir de &amp;lt;t:1795776000:f&amp;gt; (ajustado ao seu fuso horário).
+
+## Novidades
+
+- Adicionamos a quinta e última parte da Team Rocket Storyline, a **Giovanni’s Return Quest**. O início dessa etapa ocorre por meio do NPC Looker, localizado na delegacia de Goldenrod.
+  - **Observação:** Conforme informado em divulgações anteriores, apenas jogadores que já concluíram a **The Time Traveler Quest** poderão iniciar essa nova etapa da storyline.
+  - **Observação:** Em determinadas etapas da Giovanni’s Return Quest, também será necessário ter concluído as missões **Silver’s Journey**, **Johto Pokémon League** e **Mewtwo Main Quest** para avançar.
+- Adicionamos uma nova ilha ao continente de Johto, o **Mount Quena**. O local possui áreas de caça de diversos Pokémon BUG-type, com destaque para o Pokémon Yanmega.
+
+## Sobre o farm pós-Giovanni’s Return Quest
+
+Para que os jogadores tenham as informações necessárias para escolher a dificuldade da quest, detalhamos abaixo a progressão para obtenção do T1H Speedster, considerando que a quest também possui outras recompensas.
+
+- O T1H Speedster poderá ser adquirido por **500 Gold Rocket Coins**.
+- Ao concluir toda a quest na dificuldade Normal, o jogador receberá um total de **170 Gold Rocket Coins**, distribuídas entre os diferentes desafios.
+- Ao concluir toda a quest na dificuldade Hard, o jogador receberá um total de **205 Gold Rocket Coins**, distribuídas entre os diferentes desafios.
+- Ao concluir toda a quest na dificuldade Extreme, o jogador receberá um total de **300 Gold Rocket Coins**, incluindo as 50 Gold Rocket Coins concedidas pelo Extreme Challenge.
+- O farm pós-quest será composto por diversos conteúdos **mensais**.
+- Jogadores que concluírem a quest nas dificuldades Normal ou Hard poderão obter o T1H Speedster no terceiro mês ao somar as Gold Rocket Coins recebidas durante a quest às adquiridas nos conteúdos mensais.
+  - **Observação:** A quantidade de moedas restantes dependerá da dificuldade escolhida e da quantidade de conteúdos mensais realizados.
+- Jogadores que concluírem a quest na dificuldade Extreme poderão obter o T1H Speedster no segundo mês ao somar as Gold Rocket Coins recebidas durante a quest às adquiridas nos conteúdos mensais.
+- Os conteúdos mensais poderão ser realizados no mesmo mês em que o jogador concluir a quest.
+  - **Observação:** No lançamento dos conteúdos mensais, divulgaremos informações mais detalhadas sobre seu funcionamento.
+
+## Alterações Gerais
+
+- Adicionamos uma nova aba **Conta** à janela de opções, permitindo alterar o e-mail ou a senha diretamente pelo client, sem a necessidade de acessar o site.
+  - **Observação:** Também realizamos pequenas alterações na tela de login, incluindo um botão que permite visualizar a senha digitada.
+- Atualizamos visualmente o ataque Thunder adaptado.
+- Atualizamos visualmente os Pokémon Persian e Shiny Persian.
+- Alteramos o ataque Psychic do Pokémon Meowstic para sua versão instantânea.
+- Atualizamos o mapa da delegacia de Goldenrod para adequá-lo à nova missão adicionada ao jogo.
+- Adicionamos lockers e zonas de proteção em determinadas áreas do mapa de Johto para atender às necessidades da nova missão.
+- Removemos a possibilidade de o Pokémon Shiny Venusaur selvagem utilizar o ataque Vine Grab.
+- Revisamos a frequência de uso dos ataques do Pokémon Butterfree selvagem.
+- Atualizamos o ícone do ataque Dragon Blast.
+- Aceleramos a animação da versão em área do ataque Solar Beam nos casos em que o Pokémon não possui uma animação exclusiva para o ataque.
+- Reduzimos a distância de acerto do ataque Metal Claw do Pokémon Mega Metagross.
+- Alteramos a entrada do Indigo Plateau para exibir opções de acesso às diferentes versões do local quando o jogador estiver na etapa da versão destruída da Rainbow Hero.&lt;/pre&gt;</description>
+    </item>
+    <item>
       <title>Com o destino de Johto em jogo, chegou a hora de enfrentar os desafios deste último capítulo e descobrir até onde Giovanni está disposto a ir para con</title>
       <guid>discord-1574913657962364948</guid>
       <link>https://discord.com/channels/1536385342058270740/1574194274701017238/1574913657962364948</link>
