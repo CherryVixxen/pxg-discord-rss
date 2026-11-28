@@ -241,5 +241,15 @@
     "embeds": [],
     "message_url": "https://discord.com/channels/1536385342058270740/1574194274701017238/1575685444497186918",
     "type": 0
+  },
+  {
+    "id": "1576024356801351680",
+    "timestamp": "2026-11-27T23:58:07.778000+00:00",
+    "author": "PokeXGames #📰│changelog",
+    "content": "# Notas de Atualização\n-# Já disponível.\n\n## Alterações Gerais\n\n- Alteramos o ataque Grassy Terrain do Pokémon TM Tangrowth para que não cure mais personagens.\n\n## Correções\n\n- Corrigimos um erro que impedia a conclusão da luta contra a Rocket Airship.\n- Corrigimos um erro que fazia com que alguns Mega Pokémon fossem exibidos como Shiny Mega no launcher do jogo.\n- Corrigimos um erro na descrição do ataque X-Scissor do Pokémon TM Shiny Ariados.\n- Corrigimos um erro que fazia com que o ataque Sludge Bomb do Pokémon TM Shiny Tentacruel não exibisse seu efeito visual.\n- Corrigimos um erro relacionado ao ouro encontrado em algumas instâncias da arena do Rocket Grunt Malefic durante a Giovanni's Return Quest.\n- Corrigimos um erro que permitia que determinados ataques curassem a vida do personagem durante algumas dungeons da Giovanni's Return Quest.",
+    "attachments": [],
+    "embeds": [],
+    "message_url": "https://discord.com/channels/1536385342058270740/1574194274701017238/1576024356801351680",
+    "type": 0
   }
 ]
